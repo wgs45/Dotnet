@@ -89,8 +89,8 @@ The projects and code examples in this repository are intended for educational a
 
 If you have any questions, suggestions, or feedback, feel free to reach out to me:
 
-- **Email:** [your-email@example.com](mailto:your-email@example.com)
-- **GitHub:** [your-github-username](https://github.com/your-github-username)
+- **Email:** 
+- **GitHub:** 
 
 Thank you for visiting my .NET Projects Repository! Happy coding!
 
