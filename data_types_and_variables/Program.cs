@@ -141,10 +141,44 @@ Console.WriteLine($"The user password is {password}. Its length is {passwordLeng
 
 Console.WriteLine("-------------------------------------");
 
-// get parts of string
+// get parts of string (DNA exercise)
 
 string startStrand = "ATGCGATGAGCTTAC";
 int tga = startStrand.IndexOf("TGA");
+Console.WriteLine(tga);
 
 int startPoint = 0;
-int length = 3;
+int length_1 = tga + 3;
+
+string dna = startStrand.Substring(startPoint, length_1);
+Console.WriteLine(dna);
+
+Console.WriteLine(dna[3]);
+
+Console.WriteLine("-------------------------------------");
+
+// Manipulate string example
+
+// Script line
+string script = "Close on a portrait of the HANDSOME PRINCE -- as the BEAST'S giant paw slashes it.";
+
+// Get camera directions
+int charPosition = script.IndexOf("Close");
+int length = "Close on".Length;
+string cameraDirections = script.Substring(charPosition, length);
+
+// Get scene description
+charPosition = script.IndexOf("a portrait");
+string sceneDescription = script.Substring(charPosition);
+
+// Make camera directions uppercase
+cameraDirections = cameraDirections.ToUpper();
+
+// Make scene description lowercase
+sceneDescription = sceneDescription.ToLower();
+
+// Print results
+Console.WriteLine(cameraDirections);
+Console.WriteLine(sceneDescription);
+
+
